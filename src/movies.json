@@ -1,0 +1,42 @@
+[
+    {
+        "MovieName":"The messenger",
+        "LengthInMinutes":"110",
+        "PosterImage":"images/TheMessenger.JPG",
+        "Director":"Dominic Cooke",
+        "MainStars":[
+            "Benedict Cumberbatch",
+            "Merab Ninidze",
+            "Rachel Brosnahan",
+            "Jessie Buckley",
+            "Angus Wright"
+        ]
+    },
+    {
+        "MovieName":"Mortal Combat",
+        "LengthInMinutes":"120",
+        "PosterImage":"images/MortalCombat.JPG",
+        "Director":"Simon McQuoid",
+        "MainStars":[
+            "Lewis Tan",
+            "Jessica McNamee",
+            "Josh Lawson",
+            "Tadanobu Asano",
+            "Mehcad Brooks"
+        ]
+    },
+    {
+        "MovieName":"GodzillaVsKong",
+        "LengthInMinutes":"120",
+        "PosterImage":"images/GodzillaVsKong.JPG",
+        "Director":"Adam Wingard",
+        "MainStars":[
+            "Alexander Skarsgård",
+            "Millie Bobby Brown",
+            "Rebecca Hall",
+            "Brian Tyree Henry",
+            "Shun Oguri"
+        ]
+    }
+]
+ 

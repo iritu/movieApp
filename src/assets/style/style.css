@@ -1,0 +1,39 @@
+.services{
+    margin-top:3%;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    border: 0;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.App {
+   /* text-align: center;*/
+   text-align:justify;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    padding-inline-start:0;
+}
+
+.card 
+{
+    min-width: 13em;
+    min-height: 20em;
+    margin-top:1%;
+}
+
+.actorsList{
+    list-style-type: none;
+}
+
+.movieCardRow{
+    margin-top: 2%;
+    background-color: beige;
+}
