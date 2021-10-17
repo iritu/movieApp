@@ -61,30 +61,19 @@ function PersonCards(props){
     return(
      
       <div> 
-          {/* local nav bar with search , better of as a standalone,  but doesnt work here that way  */}
-     
-{/* 
-        this need to be seperated to the search part and the nav part
-        and the search part is goinf to be a part of this page and the navbar part is going to be a seperated 
-        component that is goint to be above the hash routing */}
-
-
-       
-                        <form className="d-flex">
-                        <input type="text" placeholder="Filter actors" value={filterText}
-                              onChange={e => setFilterText(e.target.value)}/>
-                        <select value={sortBy} 
-                                onChange={e => setSortBy(e.target.value)}
-                                className="form-control">
-                              <option value="fname">First Name</option>
-                              <option value="lname">Last Name</option>
-                        </select>
-                            
-                        </form>
+          {/* local nav bar with searc  */}
+          <form className="d-flex">
+            <input type="text" placeholder="Filter actors" value={filterText}
+                onChange={e => setFilterText(e.target.value)}/>
+                <select value={sortBy} 
+                       onChange={e => setSortBy(e.target.value)}
+                       className="form-control">
+                       <option value="fname">First Name</option>
+                       <option value="lname">Last Name</option>
+                </select>
+          </form>
                     
         {/* end nav bar */}
-
-        
 
         <CardsLine cardsLine={cardsLine}/>
 
